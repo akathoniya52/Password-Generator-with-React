@@ -5,7 +5,7 @@ const NumOfChars = ({ setNumOfChars }) => {
     return (
         <div className='container'>
             <h3>Enter number of characters needed</h3>
-            <div className="btn-container grid grid-cols-4 sm:grid-cols-2">
+            <div className="btn-container grid grid-cols-4">
                 <button type="button" onClick={() => {setNumOfChars(4)}}>4</button>
                 <button type="button" onClick={() => {setNumOfChars(8)}}>8</button>
                 <button type="button" onClick={() => {setNumOfChars(12)}}>12</button>
